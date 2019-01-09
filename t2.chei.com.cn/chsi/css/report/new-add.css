@@ -1,0 +1,127 @@
+/*学籍学历 中英文版 在线验证报告 网页版样式  huanghui 20171227*/
+.zbrq-title{
+    font-size: 16px;color: #333;line-height: 1.2;
+    display: block;
+    margin: 14px 10px 7px;font-weight: 400;
+}
+.by_img{    
+    vertical-align: bottom;
+}
+
+.div3 h2,.cn_table h2{
+    line-height: 36px;
+    font-size: 16px;
+    font-family: "黑体";
+    padding-left: 26px;
+    text-align: left;
+}
+.div3 td{position: relative;}
+.zysx{
+    width:572px;
+}
+/**在线验证*/
+.table_zxyz td{
+    border-bottom-color: #fff;
+    border-right-color: #fff;
+    font-size:12px;
+    text-align: center;    
+    line-height: 1.5;
+    color: #000;
+    font-family: "黑体";
+}
+.table_zxyz span{
+    padding-left:0;
+    display:block;
+}
+.vcode-block{
+    height: 120px;
+    border-right: 1px solid #ccc;
+}
+.vcode-detail{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    font-weight:900;
+    font-family: "Times New Roman", Times, serif;
+}
+.vcode-title{  
+    color:#727272;  
+    margin-top: -18px;
+    display: block;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.icon-mini{
+    margin-bottom: 5px;
+}
+.logoBot{
+    height:50px;
+    margin-top: 20px;
+    margin-right:20px;
+}
+/**英文版样式*/
+.tableTitle_en .zbrq-title{font-size: 14px;}
+.en_table td{
+    position: relative;
+}
+.en_table h2{
+    padding: 10px 25px 0px;
+}
+/*学位英文版验证 20181207 wly*/
+.xwEn-bg{
+    width: 700px;
+    height: 1024px;
+    margin:30px auto 0;
+    background: url("../../images/report/xw/xwpdf_bg.jpg") no-repeat center;
+    background-size:100%; 
+    font-family: Tahoma,arial,sans-serif;
+}
+.xwEn-bg .cxt{
+    margin: 0 auto;
+    width: 626px;
+    padding: 30px 30px;
+    text-align: center;
+}
+.xwEn-bg h3{
+    margin:0 auto;
+    width:600px;
+    padding-top:35px;
+    text-align: center;
+    font:bold 20px/28px Tahoma,arial,sans-serif;
+}
+.xwEn-bg .xw-sub-title{
+   font-size: 14px;
+   text-align: center;
+   margin:9px 0 18px; 
+}
+.xw-table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+.xw-table th,.xw-table td{
+    border: 1px solid #d5e6e0;
+    padding-left: 11px;
+    font:bold 12px/1.5 Tahoma,arial,sans-serif;text-align:left;color:#000;height:43px;
+}
+.xw-table td{font-weight:normal;}
+.ewm-table{margin:42px 0 80px;}
+.xw-tip{
+    font-size: 12px;
+    color: #000;
+    margin-top:10px;
+
+}
+.xcx-tip1{
+    color: #666;
+    font-size: 12px;
+}
+.xcx-tip2{
+    color: #000;
+    /* font-weight: 600; */
+    margin-top: 3px;
+    font-size: 14px;
+    display: inline-block;
+}
